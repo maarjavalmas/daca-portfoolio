@@ -60,7 +60,7 @@
 
 # 
 
-# \- \*\*GitHub:\*\* \[maarjavalmas1-ctrl](https://github.com/maarjavalmas1-ctrl)
+# \- \*\*GitHub:\*\* https://github.com/maarjavalmas1-ctrl
 
-# \- \*\*LinkedIn:\*\* \[Maarja Valmas](https://www.linkedin.com/in/maarja-valmas-a22059269/)
+# \- \*\*LinkedIn:\*\* https://www.linkedin.com/in/maarja-valmas-a22059269/
 
