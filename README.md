@@ -31,4 +31,4 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 
 ## Kontakt
 
-- **GitHub:** https://github.com/maarjavalmas1-ctrl
+- **GitHub:** https://github.com/maarjavalmas1
