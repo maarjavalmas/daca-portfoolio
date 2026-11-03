@@ -1,66 +1,34 @@
-# \# DACA Portfoolio
+# DACA Portfoolio
 
-# 
+**Programm:** Data Analyst Career Accelerator (DACA)
 
-# \*\*Programm:\*\* Data Analyst Career Accelerator (DACA)
+**Osaleja:** Maarja Valmas
 
-# \*\*Osaleja:\*\* Maarja Valmas
+**Algus:** November 2026
 
-# \*\*Algus:\*\* November 2026
+## Kirjeldus
 
-# 
+See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 
-# \## Kirjeldus
+## Projektid
 
-# 
+### Week 0: Onboarding
+- GitHub seadistamine
+- Supabase seadistamine
 
-# See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
+### Week 1: SQL Põhitõed
+- (tulemas...)
 
-# 
+### Week 2: SQL Andmete Puhastamine
+- (tulemas...)
 
-# \## Projektid
+## Oskused
 
-# 
+- **SQL:** PostgreSQL, Supabase
+- **Python:** pandas, plotly (tulemas...)
+- **Visualiseerimine:** Power BI / Streamlit (tulemas...)
+- **Tööriistad:** Git, GitHub, VS Code
 
-# \### Week 0: Onboarding
+## Kontakt
 
-# \- GitHub seadistamine
-
-# \- Supabase seadistamine
-
-# 
-
-# \### Week 1: SQL Põhitõed
-
-# \- (tulemas...)
-
-# 
-
-# \### Week 2: SQL Andmete Puhastamine
-
-# \- (tulemas...)
-
-# 
-
-# \## Oskused
-
-# 
-
-# \- \*\*SQL:\*\* PostgreSQL, Supabase
-
-# \- \*\*Python:\*\* pandas, plotly (tulemas...)
-
-# \- \*\*Visualiseerimine:\*\* Power BI / Streamlit (tulemas...)
-
-# \- \*\*Tööriistad:\*\* Git, GitHub, VS Code
-
-# 
-
-# \## Kontakt
-
-# 
-
-# \- \*\*GitHub:\*\* https://github.com/maarjavalmas1-ctrl
-
-# \- \*\*LinkedIn:\*\* https://www.linkedin.com/in/maarja-valmas-a22059269/
-
+- **GitHub:** https://github.com/maarjavalmas1-ctrl
