@@ -1,0 +1,43 @@
+# Week 0 - Meeskonnatöö kokkuvõte
+
+## Meie meeskond
+
+Meie meeskonna nimi on SalesAnalytics. Meie projekt on seotud UrbanStyle'i müügiandmete analüüsimisega.
+
+Meeskonnas on neli liiget:
+- Sigrid Nieländer
+- Maarja Valmas
+- Marleen Aavere
+- Marje Piirisild
+
+## Mida me tegime?
+
+Esimesel nädalal tutvusime andmeanalüütika projektis vajalike tööriistadega ja seadistasime ühist töökeskkonda.
+
+Kasutasime järgmisi tööriistu:
+- GitHub - failide ja koodi jagamiseks.
+- Supabase - andmebaasi loomiseks ja haldamiseks.
+- NotebookLM - õppematerjalidega töötamiseks.
+- Google Chat ja Google Meet - omavaheliseks suhtlemiseks.
+
+Samuti jagasime omavahel ülesanded ja koostasime Team Charteri, kus panime kirja meeskonna rollid ja kokkulepped.
+
+## Mida me teada saime?
+
+Meie jaoks oli oluline õppida kasutama erinevaid tööriistu ja aru saada, kuidas need ühe projekti juures omavahel seotud on.
+
+Saime aru, et lisaks tehnilistele oskustele on tähtsad ka selge tööjaotus, failide korrashoid ja omavaheline suhtlus.
+
+## Meie soovitused UrbanStyle'ile
+
+Soovitame hoida koodi ja dokumentatsiooni ühes GitHubi repository's, kasutada ühtseid failinimesid ning hoolitseda selle eest, et ligipääsud oleksid korras ja paroolid ei satuks avalikesse failidesse.
+
+## Meeskonna ühine projekt
+
+**Meeskond:** SalesAnalytics
+
+**Projekt:** UrbanStyle Sales Analytics
+
+**Ühine GitHubi repository:** urbanstyle-sales-analytics
+
+**Programmi kestus:** 11 nädalat
