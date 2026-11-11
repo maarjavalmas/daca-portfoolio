@@ -46,16 +46,16 @@ Samuti vajasid harjutamist `NULL`-väärtuste leidmine, `COUNT`-käskude erinevu
 Soovin õppida SQL-käske omavahel paremini ühendama, kirjutada keerukamaid päringuid ning analüüsida andmeid iseseisvamalt.
 
 ## Failid
-## Failid
 
-- `week1_urbanstyle_exploration.sql` - kõik SQL-päringud koos kommentaaridega.
-- `README.md` - nädala kokkuvõte ja õpitu.
-- `01_select.png` - SELECT-päringu tulemus.
-- `02_where.png` - WHERE-päringu tulemus.
-- `03_distinct.png` - unikaalsed müügikanalid.
-- `04_count.png` - andmete loendamise tulemus.
-- `05_duplicates.png` - duplikaatide arv.
-- `06a_largest_sales.png` - 10 suurimat müüki.
-- `06b_smallest_sales.png` - 10 väikseimat müüki.
+- week1_urbanstyle_exploration.sql – kõik nädala jooksul tehtud SQL-päringud koos kommentaaridega.
+- screenshots/01_select.png – SELECT-päringu tulemus.
+- screenshots/02_where.png – WHERE-päringu tulemus.
+- screenshots/03_distinct.png – unikaalsed müügikanalid.
+- screenshots/04_count.png – andmete loendamise tulemus.
+- screenshots/05_duplicates.png – duplikaatide arv.
+- screenshots/06a_largest_sales.png – 10 suurimat müüki.
+- screenshots/06b_smallest_sales.png – väikseimad müügid.
+
+Ühine GitHubi repository: urbanstyle-sales-analytics
 
 
