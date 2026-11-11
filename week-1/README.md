@@ -3,10 +3,12 @@
 ## Projekt
 UrbanStyle – müügiandmete uurimine
 
-## Mida ma tegin?
-Esimesel nädalal tutvusin UrbanStyle'i andmebaasiga ja õppisin kasutama SQL-i andmete uurimiseks. Töötasin kolme tabeliga: `sales`, `customers` ja `products`.
+## Miks ma seda projekti tegin?
 
-Tegin praktilisi harjutusi ning otsisin müügiandmetest vastuseid erinevatele küsimustele.
+Projekti eesmärk oli tutvuda UrbanStyle'i andmebaasiga ja uurida ettevõtte müügiandmeid. Tahtsin teada, millised andmed tabelites on ja kas nende hulgas leidub vigu või puuduvaid väärtusi.
+
+## Mida ma tegin?
+Kasutasin SQL-i, et uurida müügi-, kliendi- ja tooteandmeid. Otsisin duplikaate, puuduvaid kliendi ID-sid, erinevaid müügikanaleid ning kõige suuremaid ja väiksemaid müüke.
 
 ## Mida ma õppisin?
 Õppisin kasutama järgmisi SQL-käske:
@@ -30,6 +32,10 @@ Samuti leidsin ja uurisin:
 - Kõige suuremaid müüke.
 - Nulli või negatiivse summaga müüke.
 - Erinevaid müügikanaleid ja tootekategooriaid.
+
+## Mida ma teada sain?
+
+Sain parema ülevaate andmebaasi sisust ja õppisin märkama andmetes esinevaid probleeme. Samuti sain esimest korda SQL-i abil ise andmeid uurida ja päringuid kirjutada.
 
 ## Milliste raskustega kokku puutusin?
 Alguses oli keeruline SQL-i süntaks, eriti komade ja semikoolonite õige kasutamine ning käskude õige järjekord.
