@@ -11,15 +11,15 @@ Tegin praktilisi harjutusi ning otsisin müügiandmetest vastuseid erinevatele k
 ## Mida ma õppisin?
 Õppisin kasutama järgmisi SQL-käske:
 
-- `SELECT` ja `FROM` – andmete valimiseks tabelitest.
-- `AS` – veergude ümbernimetamiseks päringu tulemuses.
-- `ORDER BY` ja `LIMIT` – andmete sorteerimiseks ja tulemuste piiramiseks.
-- `WHERE` – andmete filtreerimiseks.
-- `BETWEEN`, `IN` ja `LIKE` – kindlate väärtuste ja tekstide otsimiseks.
-- `AND` ja `OR` – mitme tingimuse ühendamiseks.
-- `DISTINCT` – ainult erinevate väärtuste leidmiseks.
-- `COUNT` – ridade ja väärtuste loendamiseks.
-- `IS NULL` – puuduvate väärtuste leidmiseks.
+- `SELECT` ja `FROM` - andmete valimiseks tabelitest.
+- `AS` - veergude ümbernimetamiseks päringu tulemuses.
+- `ORDER BY` ja `LIMIT` - andmete sorteerimiseks ja tulemuste piiramiseks.
+- `WHERE` - andmete filtreerimiseks.
+- `BETWEEN`, `IN` ja `LIKE` - kindlate väärtuste ja tekstide otsimiseks.
+- `AND` ja `OR` - mitme tingimuse ühendamiseks.
+- `DISTINCT` - ainult erinevate väärtuste leidmiseks.
+- `COUNT` - ridade ja väärtuste loendamiseks.
+- `IS NULL` - puuduvate väärtuste leidmiseks.
 
 ## Praktilised ülesanded
 Uurisin müügi-, kliendi- ja tooteandmeid.
@@ -40,7 +40,16 @@ Samuti vajasid harjutamist `NULL`-väärtuste leidmine, `COUNT`-käskude erinevu
 Soovin õppida SQL-käske omavahel paremini ühendama, kirjutada keerukamaid päringuid ning analüüsida andmeid iseseisvamalt.
 
 ## Failid
-- `week1_urbanstyle_exploration.sql` – kõik SQL-päringud koos kommentaaridega.
-- `screenshots/` – päringute tulemuste ekraanipildid.
+## Failid
+
+- `week1_urbanstyle_exploration.sql` - kõik SQL-päringud koos kommentaaridega.
+- `README.md` - nädala kokkuvõte ja õpitu.
+- `01_select.png` - SELECT-päringu tulemus.
+- `02_where.png` - WHERE-päringu tulemus.
+- `03_distinct.png` - unikaalsed müügikanalid.
+- `04_count.png` - andmete loendamise tulemus.
+- `05_duplicates.png` - duplikaatide arv.
+- `06a_largest_sales.png` - 10 suurimat müüki.
+- `06b_smallest_sales.png` - 10 väikseimat müüki.
 
 
