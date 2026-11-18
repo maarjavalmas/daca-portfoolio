@@ -14,6 +14,8 @@ Kontrollisin, kas müügitabelis viidatud kliendid ja tooted on vastavates tabel
 | Orbid tooted | 0 | Kõik müügis viidatud tooted on `products` tabelis olemas |
 | Vaimkliendid | 592 | 592 klienti pole kunagi ostnud |
 | Vaimtooted | 12 | 12 toodet pole kunagi müüdud |
+| Hinna ebakõlad (edasijõudnud) | Kontrollimata | Müügihind ei klapi tootehinnaga |
+| Kokku probleeme | 604 | Nelja baastaseme kontrolli tulemuste summa |
 
 ## Järeldused
 
@@ -26,11 +28,8 @@ Nelja kontrolli tulemuste summa on 604 kirjet. See on kategooriate arvude summa,
 
 ## Soovitused
 
-Kõigepealt tuleks kontrollida, miks 592 klienti pole ostnud. Need kliendid ei pruugi olla vigased, nad võivad olla registreerunud kliendid kes pole veel ostu sooritanud.
-
-Samuti tuleks uurida 12 müümata toodet, et selgitada kas need on uued, aktiivsest müügist väljas või lihtsalt veel müümata tooted.
-
-Orvuks jäänud kliendi- ja tooteviiteid ei leitud, seega nende kontrollide põhjal pole vaja müügitabeli seoseid parandada.
+Kõige rohkem tähelepanu vajavad 592 klienti kes pole ühtegi ostu teinud. 
+Tasuks uurida kas nad on endiselt aktiivsed kliendid või pole lihtsalt ostuni jõudnud. Samuti võiks üle vaadata 12 toodet mida pole veel müüdud. Neid ei tohiks automaatselt kustutada.
 
 ## Kokkuvõte
 
