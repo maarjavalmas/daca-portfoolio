@@ -1,36 +1,40 @@
-# Week 2 - Ristvalideerimise raport
+# Week 2 – Ristvalideerimise raport
 
 ## Eesmärk
 
-Kontrollida UrbanStyle'i andmebaasi tabelite `sales`, `customers` ja `products` omavahelist andmete terviklikkust.
-
-Kontrollisin, kas müügitabelis viidatud kliendid ja tooted on vastavates tabelites olemas ning kas leidub kliente, kes pole kunagi ostnud, ja tooteid, mida pole kunagi müüdud.
+Kontrollida, kas UrbanStyle'i müügi-, kliendi- ja tooteandmed on omavahel kooskõlas. Uurisin ka kas on kliente kes pole ostnud ja tooteid mida pole müüdud.
 
 ## Tulemused
 
-| Kontroll | Leitud kirjete arv | Tulemus |
-|---|---:|---|
-| Orbid kliendid | 0 | Kõik müügis viidatud kliendid on `customers` tabelis olemas |
-| Orbid tooted | 0 | Kõik müügis viidatud tooted on `products` tabelis olemas |
-| Vaimkliendid | 592 | 592 klienti pole kunagi ostnud |
-| Vaimtooted | 12 | 12 toodet pole kunagi müüdud |
-| Hinna ebakõlad (edasijõudnud) | Kontrollimata | Müügihind ei klapi tootehinnaga |
-| Kokku probleeme | 604 | Nelja baastaseme kontrolli tulemuste summa |
+| Kontroll | Tulemus |
+|---|---:|
+| Orbid kliendid | 0 |
+| Orbid tooted | 0 |
+| Kliendid, kes pole ostnud | 592 |
+| Tooted, mida pole müüdud | 12 |
+| Hinnaerinevusega müügid (edasijõudnute tase) | 664 |
 
-## Järeldused
+Baastaseme nelja kontrolli tulemuste summa on 604.
 
-- Müügitabelis ei leitud viiteid klientidele, keda `customers` tabelis pole.
-- Müügitabelis ei leitud viiteid toodetele, mida `products` tabelis pole.
-- 592 klienti ei esine müügitehingutes.
-- 12 toodet ei esine müügitehingutes.
+## Edasijõudnute analüüs
 
-Nelja kontrolli tulemuste summa on 604 kirjet. See on kategooriate arvude summa, mitte tingimata unikaalsete probleemsete kirjete arv.
+Kontrollisin JOIN-i abil, kas müügisumma vastab toote jaehinna ja koguse korrutisele.
 
-## Soovitused
+- Leidsin 664 müüki, mille hinnavahe oli üle 1 €.
+- 10 tootel erines keskmine müügihind jaehinnast rohkem kui 5 €.
+- Lisaks leidsin 305 negatiivse müügisummaga kirjet.
+- Negatiivsed summad jäid vahemikku -16,37 € kuni −1405,32 €.
 
-Kõige rohkem tähelepanu vajavad 592 klienti kes pole ühtegi ostu teinud. 
-Tasuks uurida kas nad on endiselt aktiivsed kliendid või pole lihtsalt ostuni jõudnud. Samuti võiks üle vaadata 12 toodet mida pole veel müüdud. Neid ei tohiks automaatselt kustutada.
+Võimalik, et osa erinevustest on seotud allahindluste, tagastuste või andmevigadega. Seda tuleks täpsemalt uurida.
+
+## Järeldused ja soovitused
+
+Müügitabelis puuduvad viited olematutele klientidele ja toodetele, mis on positiivne tulemus.
+
+Samas on 592 klienti kes pole ostnud, ja 12 toodet mida pole müüdud. Samuti vajavad kontrollimist hinnavahed ja negatiivsed müügisummad.
+
+Enne andmete kustutamist või muutmist tuleks välja selgitada kas tegemist on tegelike vigade või tavapäraste äritehingutega.
 
 ## Kokkuvõte
 
-Ristvalideerimise käigus ei leitud puuduvaid kliendi- ega tooteviiteid. Leiti 592 klienti, kes pole ostnud ning 12 toodet mida pole müüdud. Tulemused vajavad ärilist tõlgendamist enne võimalike muudatuste tegemist andmetes.
+Baastaseme kontrollid näitasid, et kliendi- ja tooteviited on korras. Edasijõudnute analüüs tõi välja mitmeid hinnaerinevusi mida tasub lähemalt uurida. Kõik leitud probleemid ei tähenda automaatselt, et andmed on valed.
