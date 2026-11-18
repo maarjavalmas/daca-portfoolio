@@ -72,11 +72,66 @@ WHERE product_id NOT IN (
 --Tegemist võib olla toodetega mida pole veel ostetud v mis pole veel müüki jõudnud
 
 
--- ESIALGNE JÄRELDUS: 
+--ESIALGNE JÄRELDUS: 
 --Müügitabeli ja teiste tabelite vahel ei leitud puuduvaid kliendi- ega tooteviiteid. Küll aga leidus 592 ostuta klienti ja 12 müümata toodet.
 --Kokku on nende nelja kontrolli peale 604 leitud kirjet (592 + 12). See on kontrollide tulemuste summa, mitte tingimata 604 erinevat andmekvaliteedi viga.
 
--- SOOVITUS TOOMASELE:
+--SOOVITUS TOOMASELE:
 --Kõige rohkem tähelepanu vajavad 592 klienti kes pole ühtegi ostu teinud
 --Tasuks uurida, kas nad on endiselt aktiivsed kliendid v pole lihtsalt ostuni jõudnud
 --Samuti võiks üle vaadata 12 toodet mida pole müüdud
+
+
+
+--EDASIJÕUDNUTE TASE: HINNA-KOOSKÕLA KONTROLL
+--Kas müügisumma vastab toote jaehinnale × kogusele?
+
+-- 1. Suurimad hinnaerinevused (LIMIT 20)
+SELECT
+    s.sale_id,
+    s.total_price,
+    p.retail_price AS tootehind,
+    s.quantity,
+    s.total_price - (p.retail_price * s.quantity) AS erinevus
+FROM sales s
+JOIN products p ON s.product_id = p.product_id
+WHERE ABS(s.total_price - (p.retail_price * s.quantity)) > 1
+ORDER BY ABS(s.total_price - (p.retail_price * s.quantity)) DESC
+LIMIT 20;
+--TULEMUS: leitud näidete hulgas olid suured negatiivsed hinnaerinevused
+
+
+-- 2. Kõigi hinnakooskõla probleemide arv
+SELECT COUNT(*) AS vigase_hinnaga_muugid
+FROM sales s
+JOIN products p ON s.product_id = p.product_id
+WHERE ABS(s.total_price - (p.retail_price * s.quantity)) > 1;
+--TULEMUS: 664 müüki
+
+
+-- 3. Suurima keskmise hinnaerinevusega tooted
+SELECT
+    p.product_name,
+    p.category,
+    p.retail_price AS list_hind,
+    AVG(s.total_price / NULLIF(s.quantity, 0)) AS kesk_muugihind,
+    p.retail_price - AVG(s.total_price / NULLIF(s.quantity, 0)) AS erinevus
+FROM products p
+JOIN sales s ON p.product_id = s.product_id
+GROUP BY p.product_id, p.product_name, p.category, p.retail_price
+HAVING ABS(p.retail_price - AVG(s.total_price / NULLIF(s.quantity, 0))) > 5
+ORDER BY ABS(p.retail_price - AVG(s.total_price / NULLIF(s.quantity, 0))) DESC
+LIMIT 10;
+--TULEMUS: 10 toodet, mille keskmine müügihind erines jaehinnast üle 5 EUR
+
+
+-- 4. Negatiivse müügisummaga kirjete kontroll
+SELECT
+    COUNT(*) AS negatiivseid_muuke,
+    MIN(total_price) AS minimaalne_summa,
+    MAX(total_price) AS maksimaalne_summa
+FROM sales
+WHERE total_price < 0;
+--TULEMUS: 305 kirjet.
+--Summad jäid vahemikku -1405.32 EUR kuni -16.37 EUR
+--Võimalikud põhjused: tagastused, kreeditarved või andmevead
