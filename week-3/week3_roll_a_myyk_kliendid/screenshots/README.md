@@ -1,0 +1,1 @@
+Päringute tulemuste ekraanipildid
