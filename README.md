@@ -29,12 +29,12 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 **Failid ja materjalid:**
 
 *Iseseisev töö*
-- [Individuaalse seadistuse ekraanipilt](week-0/individual/setup_screenshot.png)
-- [Supabase'i tabelite ekraanipilt](week-0/Supabase_tabel_nädal1.png).
-
+- [Individuaalse seadistuse ekraanipilt](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-0/individual/setup_screenshot.png).
+  
 *Grupitöö*
-- [SQL-i tööfail](week-0/UrbanStyle%20DACA.session.sql)
-- [Meeskonnatöö kokkuvõte](week-0/team/week0_team_summary)
+- [Supabase'i tabelite ekraanipilt](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-0/Supabase_tabel_n%C3%A4dal1.png).
+- [SQL-i tööfail](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-0/UrbanStyle%20DACA.session.sql).
+- [Meeskonnatöö kokkuvõte](https://github.com/15sigrid/urbanstyle-sales-analytics/blob/main/week0-synthesis.md).
 
 ### Week 1: SQL - Põhitõed
 
@@ -53,14 +53,14 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 **Failid ja materjalid:**
 
 *Iseseisev töö*
-- [SQL-päringud](week-1/week1_urbanstyle_exploration.sql)
-- [README](week-1/README.md)
-- [Ekraanipildid](week-1/screenshots/)
+- [SQL-päringud](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-1/week1_urbanstyle_exploration.sql).
+- [README](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-1/README.md).
+- [Ekraanipildid](https://github.com/maarjavalmas/daca-portfoolio/tree/main/week-1/screenshots).
 
 *Grupitöö – Roll C: Products*
-- [Roll C: Products](week-1/week-1-group-work/role-c-products/)
-- [Märkmed](week-1/week-1-group-work/role-c-products/products_analysis_notes.md)
-- [Ekraanipildid](week-1/week-1-group-work/role-c-products/screenshots/)
+- [Roll C: Products](https://github.com/maarjavalmas/daca-portfoolio/tree/main/week-1/week-1-group-work/role-c-products).
+- [Märkmed](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-1/week-1-group-work/role-c-products/products_analysis_notes.md).
+- [Ekraanipildid](https://github.com/maarjavalmas/daca-portfoolio/tree/main/week-1/week-1-group-work/role-c-products/screenshots).
 
 ### Week 2: SQL – Andmete puhastamine
 
@@ -80,15 +80,15 @@ See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 **Failid ja materjalid:**
 
 *Iseseisev töö*
-- [SQL-päringud](week-2/week2_independent_work.sql)
-- [Töö aruanne](week-2/week2_independent_work_report.md)
-- [Ekraanipildid](week-2/screenshots/)
+- [SQL-päringud](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-2/week-2-independent-work/week2_independent_work.sql).
+- [Töö aruanne](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-2/week-2-independent-work/week2_independent_work_report.md).
+- [Ekraanipildid](https://github.com/maarjavalmas/daca-portfoolio/tree/main/week-2/week-2-independent-work/screenshots).
 
 *Grupitöö – Roll D: Cross-validation*
-- [Grupitöö kaust](week-2/week-2-group-work/role-d-cross-validation/)
-- [SQL-päringud](week-2/week-2-group-work/role-d-cross-validation/week2_cross_validation.sql)
-- [Grupitöö aruanne](week-2/week-2-group-work/role-d-cross-validation/week2_cross_validation_report.md)
-- [Ekraanipildid](week-2/week-2-group-work/role-d-cross-validation/screenshots/)
+- [Grupitöö kaust](https://github.com/maarjavalmas/daca-portfoolio/tree/main/week-2/week-2-group-work/role-d-cross-validation).
+- [SQL-päringud](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-2/week-2-group-work/role-d-cross-validation/week2_cross_validation.sql).
+- [Grupitöö aruanne](https://github.com/maarjavalmas/daca-portfoolio/blob/main/week-2/week-2-group-work/role-d-cross-validation/week2_cross_validation_report.md).
+- [Ekraanipildid](https://github.com/maarjavalmas/daca-portfoolio/tree/main/week-2/week-2-group-work/role-d-cross-validation/screenshots).
 
 ### Week 3: coming..
 
