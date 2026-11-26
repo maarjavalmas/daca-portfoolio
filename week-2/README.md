@@ -69,4 +69,4 @@ Soovin õppida keerukamaid SQL-päringuid omavahel ühendama, andmete kvaliteeti
 **Grupitöö**
 - `week-2-group-work/role-d-cross-validation/` – ristvalideerimise grupitöö failid ja ekraanipildid.
 
-Grupitöö SQL-päringud, raport ja ekraanipildid asuvad [Roll D – Cross-validation kaustas](week-2/week-2-group-work/role-d-cross-validation/).
+Grupitöö SQL-päringud, raport ja ekraanipildid asuvad [Roll D – Cross-validation kaustas](https://github.com/maarjavalmas/daca-portfoolio/tree/main/week-2/week-2-group-work/role-d-cross-validation).
